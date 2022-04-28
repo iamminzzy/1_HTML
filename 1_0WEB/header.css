@@ -1,5 +1,6 @@
 
 h1{
+  margin: 0;
   text-align: center;
   background-color: rgb(255, 242, 246);
 }
@@ -70,7 +71,32 @@ a:link{
 a:visited{
   color: inherit;
 }
+li{
+  margin-bottom: 30px;
+  font-size: x-large;
+}
 li a:hover {
   text-decoration: underline;
 }
+.grd{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  width: 180px;
+  border-right: 1px solid black;
+  padding: 40px;
+}
+p{
+  margin: 0;
+}
+.index{
+  width: 630px;
+}
+h2{
+  text-align: center;
+}
