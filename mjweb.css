@@ -111,11 +111,7 @@ p{
   font-style: italic;
   color: red;
 }
-<<<<<<< HEAD
-@media screen and (max-width:1024px){
-=======
-@media screen and (max-width:767px){
->>>>>>> 08c8428cc067221981e133544c6ee302701082cf
+@media screen and (max-width: 1024px){
   /*모바일 세로화면*/
   .grd{
     display: block;
