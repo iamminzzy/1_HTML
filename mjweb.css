@@ -111,7 +111,7 @@ p{
   font-style: italic;
   color: red;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 400px){
   /*모바일 세로화면*/
   .grd{
     display: block;
