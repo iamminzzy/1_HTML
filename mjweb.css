@@ -1,15 +1,15 @@
-h1{
+header{
   margin: 0;
   text-align: center;
   background-color: rgb(255, 242, 246);
 }
-h1:hover{
+header:hover{
   text-decoration: none;
 }
-button {
+button{
     margin: 30px;
   }
-.custom-btn {
+.custom-btn{
     width: 200px;
     height: 60px;
     color: #fff;
@@ -28,7 +28,7 @@ button {
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
 }
-.btn {
+.btn{
     width: 200px;
     height: 60px;
     line-height: 42px;
@@ -37,7 +37,7 @@ button {
     background: rgb(240, 9, 74);
     background: linear-gradient(0deg, rgba(240, 9, 74,1) 0%, rgba(240, 9, 74,1) 100%);
   }
-  .btn:hover {
+  .btn:hover{
     color: rgb(240, 9, 74);
     background: transparent;
     box-shadow:none;
@@ -99,13 +99,13 @@ p{
   margin: 10px;
 }
 .content{
-  padding: 0;
+  padding-top: 25px;
   text-align: center;
 }
-.index3{
-  margin: 10px;
+.index1 p{
+  margin: 25px 0px;
 }
-.index4{
+.index2{
   font-size: x-large;
   margin-bottom: 50px;
   font-style: italic;
@@ -129,8 +129,5 @@ p{
   .nav li{
     text-align: center;
     margin-bottom: 0;
-  }
-  .content{
-    padding-top: 10px;
   }
 }
