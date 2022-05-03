@@ -112,7 +112,7 @@ p{
   color: red;
 }
 @media screen and (max-width: 1023px){
-  /*모바일 세로화면*/
+  /*모바일*/
   .grd{
     display: block;
   }
