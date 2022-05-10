@@ -1,6 +1,7 @@
 body{
   font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
   background-color: white;
+  margin: 0;
 }
 header{
   margin: 0;
@@ -69,10 +70,10 @@ button{
     transition:800ms ease all;
   }
 .darkmode-btn{
-  width: 70px;
+  width: 95px;
   height: 50px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(251, 251, 251);
+  color: rgb(43, 43, 43);
+  background-color: white;
   border-radius: 30px;
   border-style: none;
   box-shadow: 1px 1px 3px rgb(212, 212, 212);
@@ -86,6 +87,10 @@ button{
     vertical-align: top;
   cursor: pointer;
   z-index: 100;
+}
+.darkmode-btn:hover{
+  background-color: rgb(43, 43, 43);
+  color: rgb(235, 235, 235);
 }
 .dark-mode{
   background-color: rgb(43, 43, 43);
@@ -140,7 +145,7 @@ p{
   }
   .nav{
     border-right: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
     height: 130px;
   }
   .nav ul{
