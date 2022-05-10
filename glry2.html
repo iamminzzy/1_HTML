@@ -11,7 +11,16 @@
         <a href="index.html">MJ's WEB</a>
       </button>
     </header>
-    <div class="grd">
+    <div class="container">
+      <button class="darkmode-btn" type="button" onclick="darkMode()">
+        Dark
+      </button>
+      <script>
+        function darkMode(){
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+        }
+      </script> 
       <div class="nav">
         <ul>
           <li><a href="glry1.html">&#x1F337;<br> SPRING</a></li>

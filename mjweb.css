@@ -1,46 +1,46 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+  background-color: white;
+}
 header{
   margin: 0;
   text-align: center;
   background-color: rgb(255, 242, 246);
 }
-header:hover{
-  text-decoration: none;
-}
 button{
-    margin: 30px;
-  }
+  margin: 30px;
+}
 .custom-btn{
-    width: 200px;
-    height: 60px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-size: large;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
+  width: 200px;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: large;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
 }
 .btn{
-    width: 200px;
-    height: 60px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    background: rgb(240, 9, 74);
-    background: linear-gradient(0deg, rgba(240, 9, 74,1) 0%, rgba(240, 9, 74,1) 100%);
-  }
+  width: 200px;
+  height: 60px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(240, 9, 74);
+  background: linear-gradient(0deg, rgba(240, 9, 74,1) 0%, rgba(240, 9, 74,1) 100%);
+}
   .btn:hover{
     color: rgb(240, 9, 74);
     background: transparent;
-    box-shadow:none;
+    box-shadow: none;
   }
   .btn:before,
   .btn:after{
@@ -68,6 +68,29 @@ button{
     width:100%;
     transition:800ms ease all;
   }
+.darkmode-btn{
+  width: 70px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(251, 251, 251);
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: 1px 1px 3px rgb(212, 212, 212);
+  position: fixed;
+  margin: 0;
+  right: 30px;
+  bottom: 20px;
+  display: inline-block;
+    background-position: -270px -55px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+  cursor: pointer;
+  z-index: 100;
+}
+.dark-mode{
+  background-color: rgb(43, 43, 43);
+  color: rgb(235, 235, 235);
+}
 a:link{
   text-decoration: none;
   color: inherit;
@@ -76,7 +99,7 @@ a:visited{
   color: inherit;
 }
 .nav{
-  border-right: 1px solid black;
+  border-right: 1px solid;
 }
 .nav ul{
   margin: 0;
@@ -88,11 +111,11 @@ a:visited{
   margin-bottom: 30px;
   font-size: x-large;
 }
-.grd{
+.container{
   display: grid;
   grid-template-columns: 261px 1fr;
 }
-.grd a:hover{
+.container a:hover{
   text-decoration: underline;  
 }
 p{
@@ -112,8 +135,7 @@ p{
   color: red;
 }
 @media screen and (max-width: 1023px){
-  /*모바일*/
-  .grd{
+  .container{
     display: block;
   }
   .nav{
