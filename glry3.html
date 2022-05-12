@@ -12,15 +12,18 @@
       </a>
     </header>
     <div class="container">
-      <button class="darkmode-btn" type="button" onclick="darkMode()">
-        Light / Dark
-      </button>
-      <script>
-        function darkMode(){
-          var element = document.body;
-          element.classList.toggle("dark-mode");
+      <!--light/dark mode-->
+      <input class="darkmode-btn" type="button" value="night" onclick="
+      if(this.value === 'night'){
+        document.querySelector('body').style.backgroundColor = 'rgb(43, 43, 43)';
+        document.querySelector('body').style.color = 'white';
+        this.value = 'day'
+      } else {
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        this.value = 'night'
         }
-      </script> 
+      ">
       <div class="nav">
         <ul>
           <li><a href="glry1.html">&#x1F337;<br> SPRING</a></li>

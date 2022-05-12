@@ -127,7 +127,7 @@ p{
   margin: 10px;
 }
 .content{
-  padding-top: 25px;
+  padding: 25px 70px;
   text-align: center;
 }
 .index1 p{
@@ -135,9 +135,21 @@ p{
 }
 .index2{
   font-size: x-large;
-  margin-bottom: 50px;
+  margin: 15px 0 50px;
   font-style: italic;
   color: red;
+}
+.index3{
+  position:relative;
+  padding-bottom:56.25%;
+}
+.index3 iframe,
+.index3 object,
+.index3 embed {
+  position: absolute;
+  left: 0;
+  width: 100%; 
+  height:100%;
 }
 @media screen and (max-width: 1023px){
   .container{
